@@ -10,6 +10,7 @@
         <module name="springboot-restful-webservices" />
         <module name="springboot-rest-api" />
         <module name="department-service" />
+        <module name="service-registry" />
         <module name="employee-service" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="department-service" options="-parameters" />
       <module name="employee-service" options="-parameters" />
+      <module name="service-registry" options="-parameters" />
       <module name="springboot-rest-api" options="-parameters" />
       <module name="springboot-restful-webservices" options="-parameters" />
     </option>
